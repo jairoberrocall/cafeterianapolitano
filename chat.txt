@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Napolitano - Origen</title>
+  <meta name="description" content="Conoce el origen de nuestro café en Napolitano: seleccionado a mano, tostado con pasión y servido con orgullo.">
+  <style>
+    body {margin:0; font-family:'Arial',sans-serif; background-color:#fdfaf6; color:#4b3621;}
+    header {background:linear-gradient(135deg,#d4a373,#b5835a); color:white; text-align:center; padding:40px 20px;}
+    header img {width:90px; height:auto; margin-bottom:10px;}
+    header h1 {margin:0; font-size:28px; letter-spacing:1px;}
+    header p {margin-top:5px; font-size:15px; opacity:0.9;}
+    section {max-width:650px; margin:auto; padding:30px 20px;}
+    h2 {color:#a0522d; border-left:4px solid #d4a373; padding-left:8px; margin-bottom:15px; font-size:20px;}
+    p {line-height:1.6; font-size:15px;}
+    .foto, .mapa {width:100%; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin:15px 0; transition:transform 0.3s ease;}
+    .foto:hover, .mapa:hover {transform:scale(1.02);}
+    .proceso {display:flex; flex-direction:column; gap:15px;}
+    .paso {background:white; padding:15px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.08);}
+    .paso b {color:#b5835a;}
+    .cta {text-align:center; margin-top:20px;}
+    .cta a {background:#b5835a; color:white; text-decoration:none; padding:10px 20px; border-radius:5px; font-size:14px; transition:background 0.3s;}
+    .cta a:hover {background:#a0522d;}
+    footer {text-align:center; background:#d4a373; color:white; padding:15px; font-size:13px; margin-top:30px;}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/8dtRP4d/logo-napolitano.png" alt="Logo Napolitano">
+    <h1>Café Napolitano</h1>
+    <p>Seleccionado a mano, tostado con pasión y servido con orgullo</p>
+  </header>
+
+  <section>
+    <h2>🌱 Origen del Grano</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Villa_Rica_Coffee.jpg/640px-Villa_Rica_Coffee.jpg" class="mapa" alt="Cafetales peruanos">
+    <p>Nuestros granos provienen de cafetales peruanos a más de 1,500 msnm. Productores locales cultivan con amor y respeto por la tierra, logrando un café equilibrado y lleno de carácter.</p>
+  </section>
+
+  <section>
+    <h2>☕ Proceso del Café</h2>
+    <div class="proceso">
+      <div class="paso"><b>1. Selección y secado</b><br>Granos escogidos y secados al sol para conservar su esencia natural.</div>
+      <div class="paso"><b>2. Tostado medio</b><br>Resalta notas achocolatadas y toques frutales únicos.</div>
+      <div class="paso"><b>3. Molido y servido fresco</b><br>Molido al momento para que disfrutes cada aroma en Napolitano.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>✨ Experiencia Napolitano</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cappuccino_in_a_cup.jpg/640px-Cappuccino_in_a_cup.jpg" class="foto" alt="Café servido en Napolitano">
+    <p>Un café no es solo sabor, es una pausa para disfrutar. Gracias por apoyar a los productores peruanos con cada taza que tomas en Napolitano.</p>
+    <div class="cta">
+      <a href="https://www.instagram.com" target="_blank">Síguenos en Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Napolitano Café | Gracias por elegir café de origen
+  </footer>
+</body>
+</html>
